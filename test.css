@@ -1,5 +1,13 @@
+:root{
+    --main-color: #a8943d;
+    --main-color-dark: #b5a642;
+    --milk-color: #ffffff;
+    --light-gray: #EAEAEA;
+    --dark-gray: #4a4a4a;
+    --semi-black: #272727;
+}
 .white{
-    color: #fff;
+    color: var(--milk-color);
 }
 
 .title span{
@@ -19,7 +27,7 @@
 
 .title1 span{
     background: url(../images/icon-title1.png) no-repeat 0 50% ;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .title2 span{
