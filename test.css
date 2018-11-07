@@ -1,0 +1,27 @@
+.white{
+    color: #fff;
+}
+
+.title span{
+    display: inline-block;
+    padding: 3px 0 3px 0px;
+}
+
+.title a{
+    color: var(--main-color); 
+    text-transform: none;
+    font: bold 16px AliceRegular;
+}
+
+.title a:hover{
+    text-decoration: none;
+}
+
+.title1 span{
+    background: url(../images/icon-title1.png) no-repeat 0 50% ;
+    padding-left: 40px;
+}
+
+.title2 span{
+    background: url(../images/icon-title2.png) no-repeat 0 50% ;
+}
